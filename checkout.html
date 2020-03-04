@@ -1,0 +1,105 @@
+<html>
+<head>
+
+  <h1><img src="images/image3.jpg" alt="shoes4u" width="450" height="100"></h1>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="products.html">products</a></li>
+  <li><a href="signin.html">sign in</a></li>
+  <li><a class="active" href="checkout.html">checkout</a></li>
+</ul>
+
+<!DOCTYPE html>
+  <meta charset="utf-8">
+  <title>My Shopping Cart</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="cart.css">
+  <!--<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+  <div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          My Shopping Cart
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-9">
+        <h1>Products</h1>
+        <div class="row">
+          <div class="col col-xs-12 col-md-6 col-lg-4">
+            <div>
+              <img src="images/armani.jpg" width="150px" height="200px">
+            </div>
+
+          <h2>Product Name</h2>
+          <p>Product Name</p>
+          <p>&pound35.99</p>
+          <p><input type="submit" value="Add to cart" class="btn"/></p>
+
+
+
+          </div>
+</div>
+
+
+
+
+      <div id="calculator">
+      </div>
+      <form>
+            <div id='shipping-form'>
+                <div>
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Address Line 1</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Address Line 2</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>City</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>County</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Post Code</label>
+                    <input type="text" class="form-control">
+                </div>
+            <div>
+                <input type="button" value="Submit" id="finish" />
+            </div>
+        </form>
+
+      </div>
+</div>
+
+
+
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+<script src="cart.js"></script>
+
+
+
+</head>
+</html>
